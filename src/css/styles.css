@@ -92,4 +92,66 @@
 /* end task 1 styles */
 
 /* start task 2 styles */
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.form label{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label-delay{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label-delay input{
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  width: 360px;
+}
+
+form button{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 388px;
+  height: 40px;
+  background-color: #4e75ff;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+form button:hover{
+  background-color: #6c8cff;;
+}
 /* end task 2 styles */
